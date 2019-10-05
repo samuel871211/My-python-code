@@ -1,20 +1,20 @@
-class MyLinkedList:
+class MyLinkedList: #類似創建一個物件
 
-    def __init__(self):
+    def __init__(self): #基礎的屬性設定
         """
         Initialize your data structure here.
         """
-        self.val = None
-        self.next = None
+        self.val = None #value=空值
+        self.next = None #next=空值
 
     def get(self, index: int) -> int:
         """
         Get the value of the index-th node in the linked list. If the index is invalid, return -1.
         """
         if self.val == None:
-            return -1
+            return -1 #get節點裡面的值，如果是none，回傳-1
         if index == 0:
-            return self.val
+            return self.val 
         p = self.next
         i = 1
         while p != None:
@@ -30,7 +30,7 @@ class MyLinkedList:
         """
         if self.val == None:
             self.val = val
-            return
+            return #在linked list頭的地方加一個節點跟值#
         temp = self.val
         self.val = val
         tempnode = self.next
@@ -45,7 +45,7 @@ class MyLinkedList:
         """
         if self.val == None:
             self.val = val
-            return
+            return #在linked list尾的地方加一個節點跟值#
         p = self
         while p.next != None:
             p = p.next
