@@ -8,9 +8,9 @@ class MinStack(object):
         self.stack.append((x, min(x, self.getMin())))
         
 
-    def pop(self):
-        if len(self.stack)==0: return None
-        return self.stack.pop()[0]
+    def pop(self): #定義pop函數
+        if len(self.stack)==0: return None #如果self.stack的長度=0，就return none
+        return self.stack.pop()[0] #否則就return
         
 
     def top(self):
