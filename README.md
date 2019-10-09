@@ -16,6 +16,8 @@ linked list的好處就是在記憶體中不需要一個連續的空間來儲存
 
 然而array卻相反，但是array在尋找資料的時候會比較簡單，而且array在搬運的時候會很麻煩，因為要整組一起
 
+![image](https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/BasicDataStructures/LinkedList/Intro/f2.png?raw=true)
+
 # week3 stack queue
 stack就像疊盤子一樣，從下面疊到上面，抽取的時候也是從上面開始抽
 
