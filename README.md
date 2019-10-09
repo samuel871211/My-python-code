@@ -16,7 +16,37 @@ linked list的好處就是在記憶體中不需要一個連續的空間來儲存
 
 然而array卻相反，但是array在尋找資料的時候會比較簡單，而且array在搬運的時候會很麻煩，因為要整組一起
 
+以下圖片和文字講解的來源取自http://alrightchiu.github.io/SecondRound/linked-list-introjian-jie.html
+
 ![image](https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/BasicDataStructures/LinkedList/Intro/f2.png?raw=true)
+
+Node1：
+
+以int的data，記錄正整數7。
+
+本身的記憶體位置為0x1001042f0。
+
+以「node之pointer」，記錄(指向)下一個node之記憶體位置(0x100104300)。
+
+Node2：
+
+以int的data，記錄正整數3。
+
+本身的記憶體位置為0x100104300。
+
+由於在Node1中的「node之pointer」指向了Node2之記憶體位置，因此，便能夠經由Node1「找到」Node2。
+
+以「node之pointer」，記錄(指向)下一個node之記憶體位置(0x100104310)。
+
+Node3：
+
+以int的data，記錄正整數14。
+
+本身的記憶體位置為0x100104310。
+
+由於在Node2中的「node之pointer」指向了Node3之記憶體位置，因此，便能夠經由Node2「找到」Node3。
+
+以「node之pointer」，記錄(指向)NULL，表示Linked list的最後一個node。
 
 # week3 stack queue
 stack就像疊盤子一樣，從下面疊到上面，抽取的時候也是從上面開始抽
