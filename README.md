@@ -16,7 +16,7 @@ linked list的好處就是在記憶體中不需要一個連續的空間來儲存
 
 然而array卻相反，但是array在尋找資料的時候會比較簡單，而且array在搬運的時候會很麻煩，因為要整組一起
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE影片ID放在這裡
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=T_c8L7yiJNE
 " target="_blank"><img src="http://img.youtube.com/vi/T_c8L7yiJNE/0.jpg" 
 alt="圖片 ALT 文字放在這裡" width="240" height="180" border="10" /></a>
 
