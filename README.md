@@ -20,6 +20,8 @@ linked list的好處就是在記憶體中不需要一個連續的空間來儲存
 " target="_blank"><img src="http://img.youtube.com/vi/T_c8L7yiJNE/0.jpg" 
 alt="圖片 ALT 文字放在這裡" width="240" height="180" border="10" /></a>
 
+www
+
 以下圖片和文字講解的來源取自http://alrightchiu.github.io/SecondRound/linked-list-introjian-jie.html
 
 ![image](https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/BasicDataStructures/LinkedList/Intro/f2.png?raw=true)
