@@ -16,6 +16,10 @@ linked list的好處就是在記憶體中不需要一個連續的空間來儲存
 
 然而array卻相反，但是array在尋找資料的時候會比較簡單，而且array在搬運的時候會很麻煩，因為要整組一起
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE影片ID放在這裡
+" target="_blank"><img src="http://img.youtube.com/vi/T_c8L7yiJNE/0.jpg" 
+alt="圖片 ALT 文字放在這裡" width="240" height="180" border="10" /></a>
+
 以下圖片和文字講解的來源取自http://alrightchiu.github.io/SecondRound/linked-list-introjian-jie.html
 
 ![image](https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/BasicDataStructures/LinkedList/Intro/f2.png?raw=true)
