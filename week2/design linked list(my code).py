@@ -101,17 +101,7 @@ class MyLinkedList:
             while index != count:
                 prev = cur
                 cur = cur.next
-                count+=1
-            prev.next = cur.next
-            cur.val= None
-        self.size-=1
-        
-
-
-# Your MyLinkedList object will be instantiated and called as such:
-# obj = MyLinkedList()
-# param_1 = obj.get(index)
-# obj.addAtHead(val)
-# obj.addAtTail(val)
-# obj.addAtIndex(index,val)
-# obj.deleteAtIndex(index)
+                count+=1 #這個迴圈就是把第index個節點設定為cur，前一個節點設定為prev
+            prev.next = cur.next #把prev連結到cur.next(prev->cur.next)
+            cur.val= None #把cur刪除
+        self.size-=1 #離開迴圈了，不管什麼情況，刪除一個指定位置的節點都會使整個linked list長度-1
