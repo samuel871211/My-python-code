@@ -78,3 +78,25 @@ getBack：同理，回傳back所指向的資料
 IsEmpty：確認queue裡面是否有資料
 
 getSize：回傳queue裡面的資料個數
+
+# week4 insertion sort & quick sort
+
+In-place版本跟額外佔存空間版本的不一樣：
+
+在這些演算法中，如果不額外創造list來儲存sorted過的數字的話，我們稱為In-place版本
+
+在我的quick sort程式碼裡面，我額外的創造了bigger、equal、smaller三個list空間來存放數字
+
+而最後的return就是這三個list組合而成的，使用了額外的記憶體來存放這些資料
+
+而在我的insertion sort程式碼裡面，我並沒有額外創造list空間來存放sorted number
+
+我直接在input的list裡面進行元素的交換位置，這就是In-place版本，可以減少記憶體的使用
+
+另外這兩種演算法都還能用linked list的概念來解，故寫程式的方法不是唯一，這就是寫程式的神奇之處~
+
+insertion sort的靈感與邏輯與來自以下的youtube影片：
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=lEA31vHiry4
+" target="_blank"><img src="http://img.youtube.com/vi/lEA31vHiry4/0.jpg" 
+alt="insertion sort python" width="240" height="180" border="10" /></a>
