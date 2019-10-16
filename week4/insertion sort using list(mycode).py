@@ -8,5 +8,4 @@ def insertion_sort(list):
                 list[i] = value #把左邊的值丟到右邊
                 i = i - 1 #一直跟左邊的比，直到到最左邊的數字
             else:
-                break #This is an In-place version because this function doesn't create any extra lists to place the sorted numbers. 
-          
+                break #This is an In-place version because this function doesn't create any extra lists to place the sorted numbers.
