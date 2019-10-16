@@ -99,4 +99,4 @@ insertion sort的靈感與邏輯與來自以下的youtube影片：
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=lEA31vHiry4
 " target="_blank"><img src="http://img.youtube.com/vi/lEA31vHiry4/0.jpg" 
-alt="insertion sort python" width="240" height="180" border="10" /></a>
+alt="insertion sort python" width="480" height="360" border="10" /></a>
