@@ -118,3 +118,5 @@ big O notation簡單講就是用一個標準化的方式，這樣就能公正的
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=D6xkbGLQesk
 " target="_blank"><img src="http://img.youtube.com/vi/D6xkbGLQesk/0.jpg" 
 alt="insertion sort python" width="480" height="360" border="10" /></a>
+
+M<sup>2</sup>
