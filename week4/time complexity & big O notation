@@ -2,7 +2,7 @@ Given_array = [1,2,3,4,5]
 
 def stupid_Function(Given_array):
   total = 0
-return total
+  return total
 
 #In this function, it doesn't matter whether the length of the Given_array gets longer, line 4 and 5 will only be executed by 1 time.
 #So here we can say the time complexity of this function is O(1). #"O(1)" we read "big oh of one"
@@ -11,7 +11,7 @@ def find_Sum(Given_array)
   total = 0
   for each element in Given_array:
     total = total + element
-return total
+  return total
 
 #As the size of the Given_array gets bigger, the for loop will be executed by more time.
 #If we have n(n is a constant) elements inside the Given_array, the for loop will be executed by n time.
