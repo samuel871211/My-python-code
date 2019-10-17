@@ -111,4 +111,10 @@ time complexity簡單講就是一種表示方法，展現出function的runtime�
 
 我們需要有一個標準化的單位來衡量time complexity，這時候big O notation就誕生了
 
+big O notation簡單講就是用一個標準化的方式，這樣就能公正的比較各function的時間複雜度
 
+詳細的解說我在week4也有放，主要的邏輯可參考以下影片
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=D6xkbGLQesk
+" target="_blank"><img src="http://img.youtube.com/vi/D6xkbGLQesk/0.jpg" 
+alt="insertion sort python" width="480" height="360" border="10" /></a>
