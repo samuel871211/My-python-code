@@ -100,3 +100,15 @@ insertion sort的靈感與邏輯與來自以下的youtube影片：
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=lEA31vHiry4
 " target="_blank"><img src="http://img.youtube.com/vi/lEA31vHiry4/0.jpg" 
 alt="insertion sort python" width="480" height="360" border="10" /></a>
+
+# week 4 time complexity and big O notation
+
+用我自己的話講time complexity跟big O notation的話
+
+time complexity簡單講就是一種表示方法，展現出function的runtime如何隨著input增加而增加
+
+而因為運算速度會跟每台電腦、每種程式語言等等相關，所以如果直接用跑程式的時間來比較，是不合理的
+
+我們需要有一個標準化的單位來衡量time complexity，這時候big O notation就誕生了
+
+
