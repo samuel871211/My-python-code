@@ -31,4 +31,4 @@ def find_Sum_2d(array_2d):
 #line 26 will be executed by 3 times, and line 27 as well.
 #Totally, line 26 and line 27 will be executed by 3 squared times.
 #If we have n(n is a constant) rows inside array_2d, each row has n elements, the double for loop will be executed by n square times.
-#So here we can say the time complexity of this function is O(n2). #"O(n2)" we read "big oh of n square"
+#So here we can say the time complexity of this function is O(n^2). #"O(n^2)" we read "big oh of n square"
