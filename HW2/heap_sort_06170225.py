@@ -3,7 +3,7 @@ class Solution(object):
         self.nums = nums
         SortedArray = Solution().SwapAndSiftDown(nums)
         return SortedArray
-    #HeapSort為主要的排序函式，輸入未排序的array，並且呼叫函式，它會return排序好的array 
+    #HeapSort為控制底下函數的大魔王，輸入list進去後，它會呼叫底下的函式幫它進行排序，最後return答案給使用者
     
     def BuildMaxHeap(self,nums):
     
