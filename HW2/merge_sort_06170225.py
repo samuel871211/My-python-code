@@ -1,6 +1,6 @@
 class Solution(object):
     
-    def merge_sort(self,nums):
+    def merge_sort(self,nums): #進行split的步驟，之後把呼叫merge函式，把nums,left,right傳給它，最後回傳merge過後的結果
         
         self.nums = nums
         
@@ -16,7 +16,7 @@ class Solution(object):
         SortedArray = Solution().merge(nums,left,right)
         return SortedArray
     
-    def merge(self,nums,left,right):
+    def merge(self,nums,left,right): #非使用者能呼叫的函式，這是主要merge邏輯判斷的底層函式，使用者僅能呼叫merge_sort
     
         index_left = 0
         index_right = 0
