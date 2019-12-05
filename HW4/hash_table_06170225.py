@@ -11,6 +11,7 @@ class MyHashSet:
         self.data = [None] * capacity   
         
     def add(self,key):
+        from Cryptodome.Hash import MD5
         a = MD5.new()
         a.update(key.encode("utf-8"))
         val = int(a.hexdigest(),16)
@@ -30,6 +31,7 @@ class MyHashSet:
                     temp.next = ListNode(val)
     
     def remove(self,key):
+        from Cryptodome.Hash import MD5
         a = MD5.new()
         a.update(key.encode("utf-8"))
         val = int(a.hexdigest(),16)
@@ -69,6 +71,7 @@ class MyHashSet:
                     remo = None
                         
     def contains(self,key):
+        from Cryptodome.Hash import MD5
         a = MD5.new()
         a.update(key.encode("utf-8"))
         val = int(a.hexdigest(),16)
