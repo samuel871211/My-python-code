@@ -6,7 +6,7 @@ class ListNode:
 
 class MyHashSet:
     
-    def __init__(self,capacity = 5):
+    def __init__(self,capacity):
         self.capacity = capacity
         self.data = [None] * capacity   
         
@@ -36,18 +36,12 @@ class MyHashSet:
         a.update(key.encode("utf-8"))
         val = int(a.hexdigest(),16)
         rem = val % self.capacity
-                
-        # case 1: linked list為空
 
         if self.data[rem] == None:
             pass
 
-        # case 2: val在head
-
         elif self.data[rem].val == val:
             self.data[rem] = self.data[rem].next
-
-        #case 3: val不在head 且 next為空
 
         else:
             if self.data[rem].next == None:
@@ -57,14 +51,10 @@ class MyHashSet:
                 remo = self.data[rem].next
                 while remo != None and remo.val != val:
                     prev = remo
-                    remo = remo.next
-
-        #case 3-1: val不在head 也找不到          
+                    remo = remo.next        
 
                 if remo == None:
                     pass 
-
-        #case 3-2: val在某個非head的位置
 
                 else:
                     prev.next = remo.next
@@ -76,18 +66,12 @@ class MyHashSet:
         a.update(key.encode("utf-8"))
         val = int(a.hexdigest(),16)
         rem = val % self.capacity
-        
-        # case 1: linked list為空
                 
         if self.data[rem] == None:
             return False
 
-        # case 2: val在head
-
         elif self.data[rem].val == val:
             return True
-
-        #case 3: val不在head 且 next為空
 
         else:
             if self.data[rem].next == None:
@@ -97,14 +81,10 @@ class MyHashSet:
                 remo = self.data[rem].next
                 while remo != None and remo.val != val:
                     prev = remo
-                    remo = remo.next
-
-        #case 3-1: val不在head 也找不到          
+                    remo = remo.next       
 
                 if remo == None:
                     return False 
-
-        #case 3-2: val在某個非head的位置
 
                 else:
                     return True
