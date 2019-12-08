@@ -6,7 +6,7 @@ class ListNode:
 
 class MyHashSet:
     
-    def __init__(self,capacity):
+    def __init__(self,capacity = 5):
         self.capacity = capacity
         self.data = [None] * capacity   
         
