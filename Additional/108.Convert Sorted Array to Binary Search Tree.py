@@ -18,3 +18,12 @@ class Solution(object):
             root.left = self.helper(nums,head,mid-1)
             root.right = self.helper(nums,mid+1,tail)
         return root
+
+class Solution:
+    def sortedArrayToBST(self, nums: List[int]) -> TreeNode:
+        if len(nums) == 0: return None
+        mid = len(nums)//2
+        new = TreeNode(nums[mid])
+        new.left = self.sortedArrayToBST(nums[:mid])
+        new.right = self.sortedArrayToBST(nums[mid+1:])
+        return new
