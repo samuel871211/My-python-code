@@ -31,12 +31,12 @@ class BSTIterator:
         if root == None:
             return arr
         else:
-            arr.append(root.val)
             if root.left:
                 self.pre(root.left,arr)
+            arr.append(root.val)
             if root.right:
                 self.pre(root.right,arr)
-        return sorted(arr)
+        return arr
 # Your BSTIterator object will be instantiated and called as such:
 # obj = BSTIterator(root)
 # param_1 = obj.next()
