@@ -1,0 +1,1 @@
+單純紀錄寫過的CodeSignal題目
