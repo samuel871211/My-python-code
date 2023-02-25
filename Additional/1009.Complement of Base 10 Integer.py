@@ -1,4 +1,10 @@
-a = bin(a)
+class Solution(object):
+    def bitwiseComplement(self, a):
+        """
+        :type n: int
+        :rtype: int
+        """
+        a = bin(a)
         a = a[2:]
         a = list(a)
         for i in range(len(a)):
