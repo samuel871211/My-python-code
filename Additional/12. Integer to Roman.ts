@@ -1,0 +1,23 @@
+function intToRoman(num: number): string {
+  const countOfM = Math.floor(num / 1000);
+  num = num % 1000;
+  const countOfD = Math.floor(num / 500);
+  num = num % 500;
+  const countOfC = Math.floor(num / 100);
+  num = num % 100;
+  const countOfL = Math.floor(num / 50);
+  num = num % 50;
+  const countOfX = Math.floor(num / 10);
+  num = num % 10;
+  const countOfV = Math.floor(num / 5);
+  num = num % 5;
+  const countOfI = num;
+  let result = `${'M'.repeat(countOfM)}${'D'.repeat(countOfD)}${'C'.repeat(countOfC)}${'L'.repeat(countOfL)}${'X'.repeat(countOfX)}${'V'.repeat(countOfV)}${'I'.repeat(countOfI)}`;
+  if (countOfC === 4 && countOfD === 1) result = result.replace('DCCCC', 'CM');
+  if (countOfC === 4 && countOfD === 0) result = result.replace('CCCC', 'CD');
+  if (countOfX === 4 && countOfL === 1) result = result.replace('LXXXX', 'XC');
+  if (countOfX === 4 && countOfL === 0) result = result.replace('XXXX', 'XL');
+  if (countOfI === 4 && countOfV === 1) result = result.replace('VIIII', 'IX');
+  if (countOfI === 4 && countOfV === 0) result = result.replace('IIII', 'IV');
+  return result;
+};
